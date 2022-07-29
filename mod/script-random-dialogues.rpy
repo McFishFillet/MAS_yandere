@@ -123,3 +123,55 @@ label yaMod_topic_stalk:
 return
 
 #maybe she says about her stalking what you do online
+##Her talking about spying on you to because it makes her feel closer to you + she wants to make no one's trying to take you away from her.
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_promise",
+            category=["yandere"],
+            prompt="Promise ring",
+            random=True
+        )
+    )
+
+label yaMod_topic_promise:
+    m ""
+return
+
+#Also if you tell her you got a promise ring, she'll react excitedly that everyone will know you're hers and hers alone
+ 
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_hug",
+            category=["yandere"],
+            prompt="Hug",
+            random=True
+        )
+    )
+
+label yaMod_topic_hug:
+    m ""
+return
+
+#Would doing something like having monika refuse to let go when giving her a hug be at least yandere-adjacent
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_better",
+            category=["yandere"],
+            prompt="Better than others",
+            random=True
+        )
+    )
+
+label event_database:
+    m ""
+return
+
+topic where she's just bashing other fictional yanderes and being like I'm so much better
