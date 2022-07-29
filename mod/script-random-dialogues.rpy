@@ -7,7 +7,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_tattoo",
-            category=["health"],
+            category=["yandere"],
             prompt="Matching tattoos",
             random=True
         )
@@ -89,7 +89,37 @@ label yaMod_topic_tattoo:
 
 return "love"
     
-    
-#Well I have some ideas but I dont know exactly what are the good ones haha, I think it’d be cool if monika talked about how she’d kill real people if the player were danger or harms way, maybe she says about her stalking what you do online
-#Yeah, I’d like a compliment saying “I love how possessive you are” or something like that and maybe a conversation topic like “would you kill for me?”
-#I was thinking maybe she could have a farewell message that’s like “remember, your mine forever!” Stuff like that
+#would you kill for me
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_kill",
+            category=["yandere"],
+            prompt="Killing for one another",
+            random=True
+        )
+    )
+
+label yaMod_topic_kill:
+    m ""
+return 
+
+#monika talked about how she’d kill real people if the player were danger or harms way 
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_stalk",
+            category=["yandere"],
+            prompt="Stalking [player] online",
+            random=True
+        )
+    )
+
+label yaMod_topic_stalk:
+    m ""
+return
+
+#maybe she says about her stalking what you do online
