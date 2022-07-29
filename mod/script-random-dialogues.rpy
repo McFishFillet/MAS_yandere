@@ -82,12 +82,12 @@ label yaMod_topic_tattoo:
      "Yes":
         pass
         
-        m "That's good, [player]. "
-        extend "Very good."
-        m "I knew I could count on you..."
-        m "You're the love of my life, you know that?"
-        
-        return "love"
+      m "That's good, [player]. "
+      extend "Very good."
+      m "I knew I could count on you..."
+      m "You're the love of my life, you know that?"
+
+return "love"
     
     
 #Well I have some ideas but I dont know exactly what are the good ones haha, I think it’d be cool if monika talked about how she’d kill real people if the player were danger or harms way, maybe she says about her stalking what you do online
