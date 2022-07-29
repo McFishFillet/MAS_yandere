@@ -41,51 +41,51 @@ label yaMod_topic_tattoo:
     m "Do you love me too?{nw}"
     $ _history_list.pop()
     menu:
-      m "Do you love me too?{fast}"
-      
-      "Yes":
+        m "Do you love me too?{fast}"
+
+        "Yes":
         pass
-     
-      "Yes":
+
+        "Yes":
         pass
-     
-      "Yes":
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
+        pass
+
+        "Yes":
         pass
         
-      "Yes":
-        pass
-     
-      "Yes":
-        pass
-     
-      "Yes":
-        pass
-        
-      "Yes":
-        pass
-     
-      "Yes":
-        pass
-     
-      "Yes":
-        pass
-        
-      "Yes":
-        pass
-        
-      "Yes":
-        pass
-     
-      "Yes":
-        pass
-     
-      "Yes":
-        pass
-        
-   m "That's good, [player]. "
-   extend "Very good."
-   m "I knew I could count on you..."
-   m "You're the love of my life, you know that?"
+    m "That's good, [player]. "
+    extend "Very good."
+    m "I knew I could count on you..."
+    m "You're the love of my life, you know that?"
 
 return "love"
     
