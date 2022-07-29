@@ -46,46 +46,46 @@ label yaMod_topic_tattoo:
       "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
         
       "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
         
       "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
         
-     "Yes":
+      "Yes":
         pass
         
       "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
      
-     "Yes":
+      "Yes":
         pass
         
-   m "That's good, [player]. "
-   extend "Very good."
-   m "I knew I could count on you..."
-   m "You're the love of my life, you know that?"
+  m "That's good, [player]. "
+  extend "Very good."
+  m "I knew I could count on you..."
+  m "You're the love of my life, you know that?"
 
 return "love"
     
