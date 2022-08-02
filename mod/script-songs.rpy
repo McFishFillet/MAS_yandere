@@ -163,3 +163,38 @@ label yaMod_song_youbelongtome:
     m "You have to be mine."
     m "There's no other option."
 return "love"
+
+#the music of the night
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="yaMod_song_themusicofthenight",
+            category=[mas_songs.TYPE_SHORT],
+            prompt="The Music Of The Night",
+            aff_range=(mas_aff.NORMAL, None),
+            random=True
+        ),
+        code="SNG"
+    )
+
+label yaMod_song_themusicofthenight:
+    m "{i}~Let your mind start a journey through a strange new world~{/i}"
+    m "{i}~Leave all thoughts of the life you knew before~{/i}"
+    m "{i}~Let your soul take you where you long to be~{/i}"
+    m "{i}~Only then can you belong to me~{/i}"
+    m "{i}~Floating, falling, sweet intoxication~{/i}"
+    m "{i}~Touch me, trust me, savour each sensation~{/i}"
+    m "{i}~Let the dream begin, let your darker side give in~{/i}"
+    m "{i}~To the power of the music that I write~{/i}"
+    m "{i}~The power of the music of the night~{/i}"
+    m "{i}~You alone~{/i}"
+    m "{i}~Can make my song take flight~{/i}"
+    m "{i}~Help me make the music of the night~{/i}"
+    m "..."
+    m "You're the only one that can make my heart take flight, [player]."
+    m "No one else... No one."
+    m "So please, let me savour this moment..."
+    m "And belong to me."
+    m "I know you'll do that for your wonderful girlfriend, won't you?"
+return "love"
