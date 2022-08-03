@@ -178,5 +178,3 @@ return
 
 
 #Some other ideas I had is that she could talk about enjoying watching the player sleep, she says she’d Lille everyone in the literature club all over again to be with the player, says she wants to bring you to her world and never let you go
-otter — Hoje às 18:52
-TELL YOU WHAT I'LL EVEN ADD AN OPTION SO SHE CAN WATCH U SLEEP 
