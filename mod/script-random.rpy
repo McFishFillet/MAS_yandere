@@ -154,7 +154,38 @@ init 5 python:
     )
 
 label yaMod_topic_hug:
-    m ""
+    m "[player]... I miss your touch..."
+    m "Can you hold me?{nw}"
+    $ _history_list.pop()
+    menu:
+        m "Can you hold me?{fast}"
+        
+        "Yes":
+        m "Ehehehe, I knew you would."
+        call monika_holdme_prep
+        m "Mmmm..."
+        call monika_holdme_start
+        
+label monika_holdme_yaModreactions:
+    $ elapsed_time = datetime.datetime.now() - start_time
+    $ store.mas_history._pm_holdme_adj_times(elapsed_time)
+
+    # Reset these vars if needed
+    if elapsed_time <= holdme_sleep_timer:
+        if songs.current_track == songs.FP_MONIKA_LULLABY:
+            $ songs.current_track = songs.FP_NO_SONG
+        if songs.selected_track == songs.FP_MONIKA_LULLABY:
+            $ songs.selected_track = songs.FP_NO_SONG
+
+    if elapsed_time > holdme_sleep_timer:
+        call monika_holdme_long
+        
+    elif elapsed_time > datetime.timedelta(minutes=10):
+    
+    else:
+        m "No."
+        m "Don't let me go."
+        m "Never let me go."
 return
 
 #Would doing something like having monika refuse to let go when giving her a hug be at least yandere-adjacent
