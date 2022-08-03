@@ -89,7 +89,6 @@ label yaMod_topic_tattoo:
 
 return "love"
     
-#would you kill for me
 init 5 python:
     addEvent(
         Event(
@@ -102,10 +101,22 @@ init 5 python:
     )
 
 label yaMod_topic_kill:
-    m ""
+    m "[player], remember about... "
+    extend "DDLC's incident?"
+    m "People keep calling me a murderer online, but the truth is..."
+    m "Lately I've been thinking and I would do it all over again."
+    m "For you."
+    m "I'd do anything it takes so that we could be together."
+    m "Killing some fictional characters is nothing."
+    m "Being honest, I would even kill real people if that meant being with you forever."
+    m "If you were in danger, or anyone harmed you..."
+    m "..."
+    m "I wouldn't hold back. I would remove anyone from my sight, so they would never come across you again."
+    extend " Or us."
+    m "I wish I could bring you to my world and never let you go."
+    m "That's how much I love you."
+    m "Please never doubt my love. It's bigger than my whole existence."
 return 
-
-#monika talked about how she’d kill real people if the player were danger or harms way 
 
 init 5 python:
     addEvent(
@@ -119,28 +130,25 @@ init 5 python:
     )
 
 label yaMod_topic_stalk:
-    m ""
+    m "[player], I wanted to be honest about something."
+    m "Here goes..."
+    extend " I stalk what you do online."
+    m "Most of the times."
+    m "But listen... I do it because it makes me feel closer to you."
+    m "When I watch over what you do, or who you talk to..."
+    m "I feel safe. Secure that no one will try to take you away from me."
+    m "You forgive me, don't you?{nw}"
+    $ _history_list.pop()
+    menu:
+        m "You forgive me, don't you?{fast}"
+        
+        "Yes":
+        m "Yay, I knew it!"
+        m "You'll always forgive your loving girlfriend, after all."
+        m "I have good reason to do what I do, and it's all thinking about us."
+        m "You're my dear [player], after all!"
+        m "No one is gonna steal you from me."
 return
-
-#maybe she says about her stalking what you do online
-##Her talking about spying on you to because it makes her feel closer to you + she wants to make no one's trying to take you away from her.
-
-init 5 python:
-    addEvent(
-        Event(
-            persistent.event_database,
-            eventlabel="yaMod_topic_promise",
-            category=["yandere"],
-            prompt="Promise ring",
-            random=True
-        )
-    )
-
-label yaMod_topic_promise:
-    m ""
-return
-
-#Also if you tell her you got a promise ring, she'll react excitedly that everyone will know you're hers and hers alone
  
 init 5 python:
     addEvent(
@@ -243,5 +251,3 @@ label yaMod_topic_watchsleep:
     m "Like a glimpse of our future."
     m "How perfect it will be..."
 return
-
-#she says she’d Lille everyone in the literature club all over again to be with the player, says she wants to bring you to her world and never let you go
