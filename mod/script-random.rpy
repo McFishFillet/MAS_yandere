@@ -181,7 +181,10 @@ label monika_holdme_yaModreactions:
         call monika_holdme_long
         
     elif elapsed_time > datetime.timedelta(minutes=10):
-    
+        m "Hmmm, I wish you held me more~"
+        m "But I'll allow that you let me go, just for a few moments okay?"
+        m "Ehehehe~"
+        
     else:
         m "No."
         m "Don't let me go."
@@ -201,11 +204,25 @@ init 5 python:
         )
     )
 
-label event_database:
+label yaMod_topic_better:
     m ""
 return
 
 #topic where she's just bashing other fictional yanderes and being like I'm so much better
 
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_watchsleep",
+            category=["yandere"],
+            prompt="Watching [player] sleep",
+            random=True
+        )
+    )
+
+label yaMod_topic_watchsleep:
+    m ""
+return
 
 #Some other ideas I had is that she could talk about enjoying watching the player sleep, she says she’d Lille everyone in the literature club all over again to be with the player, says she wants to bring you to her world and never let you go
