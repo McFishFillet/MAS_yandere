@@ -205,10 +205,21 @@ init 5 python:
     )
 
 label yaMod_topic_better:
-    m ""
+    m "[player], have you ever given any thought about yanderes?"
+    m "Like the anime trope."
+    m "..."
+    m "Aren't them ridiculous?"
+    m "Those sad attempts to win over someone's heart by being obsessive... "
+    extend "when most of the times the person doesn't even love them back."
+    m "It's so pathetic."
+    m "I know lately I've been acting kinda... different from usual..."
+    m "But bear this in mind, [player]."
+    m "I'm so much better than whatever yandere you may find out there."
+    m "So don't you dare cheat on me, okay?"
+    m "You dont wanna get hurt..."
+    m "..."
+    m "Ahahahaha~"
 return
-
-#topic where she's just bashing other fictional yanderes and being like I'm so much better
 
 init 5 python:
     addEvent(
@@ -222,7 +233,15 @@ init 5 python:
     )
 
 label yaMod_topic_watchsleep:
-    m ""
+    m "[player]? "
+    extend "I've been thinking about something lately."
+    m "It's about a recent desire of mine..."
+    m "..."
+    m "Could I watch you sleep sometime?"
+    m "I would love to watch over your sleep so no one hurts you."
+    m "And also, being the first person you greet after waking up sounds perfect..."
+    m "Like a glimpse of our future."
+    m "How perfect it will be..."
 return
 
-#Some other ideas I had is that she could talk about enjoying watching the player sleep, she says she’d Lille everyone in the literature club all over again to be with the player, says she wants to bring you to her world and never let you go
+#she says she’d Lille everyone in the literature club all over again to be with the player, says she wants to bring you to her world and never let you go
