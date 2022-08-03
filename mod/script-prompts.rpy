@@ -33,3 +33,29 @@ label yaMod_sleep_callback:
     m "You are my one and only love!"
     
     return "love"
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_promise",
+            category=["yandere"],
+            prompt="I got myself a promise ring to match yours!",
+            random=True
+        )
+    )
+
+label yaMod_topic_promise:
+    m "Oh! "
+    extend "You did?"
+    m "[player], that makes me so happy."
+    m "You can't even imagine how much."
+    m "Now everyone will know you're mine, and mine alone!"
+    m "Thank you for making me so happy, [mas_get_player_nickname()]."
+    m "I love when you make me feel safe of our relationship."
+    m "I know I belong to you and you to me, but..."
+    m "We all get insecure sometimes."
+    m "But now that we match, I feel safer!"
+    m "Thank you so much, [mas_get_player_nickname()]."
+    m "You're the best [bf] in the whole world."
+return
