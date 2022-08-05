@@ -15,7 +15,7 @@ label ya_compliment_possessive:
     m "Oh, is that so?"
     m "I'm glad you do."
     m "It's not like I'm trying to be possessive..."
-    m "This is my default mode when it's about you, [player]."
+    m "This is my default mode when it's about you, [mas_get_player_nickname()]."
     m "I can't, and won't let anyone take you from me."
     m "You're mine. And only mine."
     m "I'm glad I don't have to force it, or else we would have some trouble..."
