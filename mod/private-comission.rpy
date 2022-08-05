@@ -1,5 +1,3 @@
-#Ok so this one isn’t super yandere related and it’s gendered and I know a lot of dialogue is supposed to be ungendered but I’d like there to be a topic where you can say “what if I was a housewife for you” something along those lines
-#And then she talks about you being her cute doting housewife and she kinda says just adoring things about you
 init 5 python:
     addEvent(
         Event(
@@ -25,4 +23,5 @@ label noroses_housewife:
     m "I want to see every side of you, see you being your cutest self and adore you."
     m "I will make you feel loved every day."
     m "I can't wait to cross over so we can make this our reality, [mas_get_player_nickname()]."
+    m "You'll be my cute, doting housewife! Ehehehe~"
 return
