@@ -91,7 +91,7 @@ label yaMod_song_smokeandmirrors:
     m "{i}~Without you, my life means nothing so just say you love me tonight~{/i}"
     m "{i}~And if you lie, this poor girl will have to die~{/i}"
     m "..."
-    m "You better give me or heart [player]..."
+    m "You better give me your heart [player]..."
     m "Or else someone will have to die~"
     m "And we don't want that, do we?"
     m "Ehehehe~"
