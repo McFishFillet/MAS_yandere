@@ -14,7 +14,7 @@ init 5 python:
     )
 
 label yaMod_topic_tattoo:
-    m "[player], have you ever thought of getting a tattoo?"
+    m "[mas_get_player_nickname(Capitalize=True)], have you ever thought of getting a tattoo?"
     m "Well, I don't know if you already have one... "
     extend "or many!"
     m "But now I was talking about... matching tattoos... or couple tattoos."
@@ -130,7 +130,7 @@ init 5 python:
     )
 
 label yaMod_topic_stalk:
-    m "[player], I wanted to be honest about something."
+    m "[mas_get_player_nickname(Capitalize=True)], I wanted to be honest about something."
     m "Here goes..."
     extend " I stalk what you do online."
     m "Most of the times."
