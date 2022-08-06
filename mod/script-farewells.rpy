@@ -11,10 +11,10 @@ init 5 python:
     )
 
 label bye_yaMod_youremineforever:
-    m 1hua "See you later, [mas_get_player_nickname()]."
-    m "And hey..."
-    m "Don't forget. "
-    extend "You're mine forever~"
+    m 1eub "See you later, [mas_get_player_nickname()]."
+    m 3rua "And hey..."
+    m 3eub "Don't forget. "
+    extend 5fubsa "You're mine forever~"
     return 'quit'
 
 #other girls
@@ -30,13 +30,13 @@ init 5 python:
     )
 
 label bye_yaMod_othergirls:
-    m 1hua "[player]..."
-    m "You're not... "
-    extend "gonna hang out with other girls, are you?"
-    m "..."
-    m "You can't. "
-    extend "And you won't."
-    m "You're only mine. "
+    m 1ruc "[player]..."
+    m 1rud "You're not... "
+    extend 1wksdrd "gonna hang out with other girls, are you?"
+    m 1wksdrc "..."
+    m 2wksdrd "You can't. "
+    extend 2cud "And you won't."
+    m 2cub "You're only mine. "
     extend "Forever. Do you understand that?{nw}"
 $ _history_list.pop()
 menu:
@@ -81,6 +81,6 @@ menu:
         "Yes":
         pass
 
-    m "Good."
+    m 2cua "Good."
 
 return 'quit'
