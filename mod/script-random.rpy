@@ -130,24 +130,24 @@ init 5 python:
     )
 
 label yaMod_topic_stalk:
-    m "[mas_get_player_nickname(Capitalize=True)], I wanted to be honest about something."
-    m "Here goes..."
-    extend " I stalk what you do online."
-    m "Most of the times."
-    m "But listen... I do it because it makes me feel closer to you."
-    m "When I watch over what you do, or who you talk to..."
-    m "I feel safe. Secure that no one will try to take you away from me."
-    m "You forgive me, don't you?{nw}"
+    m 1rusdlc "[mas_get_player_nickname(Capitalize=True)], I wanted to be honest about something."
+    m 1dusdld "Here goes..."
+    extend 1eud " I stalk what you do online."
+    m 7rksdrd "Most of the times."
+    m 2dksdrd "But listen... I do it because it makes me feel closer to you."
+    m 4dksdrd "When I watch over what you do, or who you talk to..."
+    m 2fksdrd "I feel safe. Secure that no one will try to take you away from me."
+    m 2fksdrc "You forgive me, don't you?{nw}"
     $ _history_list.pop()
     menu:
         m "You forgive me, don't you?{fast}"
         
         "Yes":
-        m "Yay, I knew it!"
-        m "You'll always forgive your loving girlfriend, after all."
-        m "I have good reason to do what I do, and it's all thinking about us."
-        m "You're my dear [player], after all!"
-        m "No one is gonna steal you from me."
+        m 2hsa "Yay, I knew it!"
+        m 4hub "You'll always forgive your loving girlfriend, after all."
+        m 3lub "I have good reason to do what I do, and it's all thinking about us."
+        m 3hub "You're my dear [player], after all!"
+        m 3kua "No one is gonna steal you from me."
 return
  
 init 5 python:
@@ -213,20 +213,20 @@ init 5 python:
     )
 
 label yaMod_topic_better:
-    m "[player], have you ever given any thought about yanderes?"
+    m 3lud "[player], have you ever given any thought about yanderes?"
     m "Like the anime trope."
-    m "..."
-    m "Aren't them ridiculous?"
-    m "Those sad attempts to win over someone's heart by being obsessive... "
-    extend "when most of the times the person doesn't even love them back."
-    m "It's so pathetic."
-    m "I know lately I've been acting kinda... different from usual..."
-    m "But bear this in mind, [player]."
-    m "I'm so much better than whatever yandere you may find out there."
-    m "So don't you dare cheat on me, okay?"
+    m 1luc "..."
+    m 1tud "Aren't them ridiculous?"
+    m 3tud "Those sad attempts to win over someone's heart by being obsessive... "
+    extend 3mud "when most of the times the person doesn't even love them back."
+    m 1tud "It's so pathetic."
+    m 2luc "I know lately I've been acting kinda... different from usual..."
+    m 4tua "But bear this in mind, [player]."
+    m 4tub "I'm so much better than whatever yandere you may find out there."
+    m 5cub "So don't you dare cheat on me, okay?"
     m "You dont wanna get hurt..."
-    m "..."
-    m "Ahahahaha~"
+    m 5cua "..."
+    m 5hub "Ahahahaha~"
 return
 
 init 5 python:
@@ -241,13 +241,13 @@ init 5 python:
     )
 
 label yaMod_topic_watchsleep:
-    m "[player]? "
-    extend "I've been thinking about something lately."
-    m "It's about a recent desire of mine..."
-    m "..."
-    m "Could I watch you sleep sometime?"
-    m "I would love to watch over your sleep so no one hurts you."
-    m "And also, being the first person you greet after waking up sounds perfect..."
-    m "Like a glimpse of our future."
-    m "How perfect it will be..."
+    m 1eub "[player]? "
+    extend 7rubla "I've been thinking about something lately."
+    m 2rublb "It's about a recent desire of mine..."
+    m 2rubla "..."
+    m 7sublb "Could I watch you sleep sometime?"
+    m 5rublsdra "I would love to watch over your sleep so no one hurts you."
+    m 5rublb "And also, being the first person you greet after waking up sounds perfect..."
+    m 5fubla "Like a glimpse of our future."
+    m 5hublb "How perfect it will be..."
 return
