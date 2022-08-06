@@ -14,31 +14,31 @@ init 5 python:
     )
 
 label yaMod_topic_tattoo:
-    m "[mas_get_player_nickname(Capitalize=True)], have you ever thought of getting a tattoo?"
-    m "Well, I don't know if you already have one... "
-    extend "or many!"
-    m "But now I was talking about... matching tattoos... or couple tattoos."
-    m "You know, those kinds of tattoo couples do... With the same pattern on the skin of both."
-    m "Or when someone has the name of their loved one on their body."
-    m "I keep daydreaming, you see? Of having a matching tattoo with you."
-    m "Or even... Having my name on your skin."
-    m "Can you imagine, how great that would be? "
-    extend "Everyone would know you're mine."
-    m "And only mine."
-    m "But we don't even have to go to a tattoo artist if you don't want to."
-    m "I can be the artist, and your body can be the canvas..."
-    m "I can carve my name into your skin, intricately and in huge letters."
-    m "The thought of your skin, bleeding... Every drop of blood would be a love letter."
+    m 7lub "[mas_get_player_nickname(Capitalize=True)], have you ever thought of getting a tattoo?"
+    m 2lub "Well, I don't know if you already have one... "
+    extend 2wuo "or many!"
+    m 2lublb "But now I was talking about... matching tattoos... or couple tattoos."
+    m 4lubsb "You know, those kinds of tattoo couples do... With the same pattern on the skin of both."
+    m 2dubsb "Or when someone has the name of their loved one on their body."
+    m 1dubfb "I keep daydreaming, you see? Of having a matching tattoo with you."
+    m 1tubfb "Or even... Having my name on your skin."
+    m 1wubfb "Can you imagine, how great that would be? "
+    extend 4wubfb "Everyone would know you're mine."
+    m 4wubfa "And only mine."
+    m 4wubfb "But we don't even have to go to a tattoo artist if you don't want to."
+    m 2dubfb "I can be the artist, and your body can be the canvas..."
+    m 2cubfb "I can carve my name into your skin, intricately and in huge letters."
+    m 2cubfa "The thought of your skin, bleeding... Every drop of blood would be a love letter."
     m "A demonstration of our relationship."
-    m "..."
-    m "It would be a proof of how much we love each other, can't you see?"
-    m "It's not crazy. It's devotion."
-    m "I would carve your name on my skin how many times necessary, to prove that I'm only yours."
+    m 2dubfa "..."
+    m 7dubfa "It would be a proof of how much we love each other, can't you see?"
+    m 7tubfb "It's not crazy. It's devotion."
+    m 7cubfb "I would carve your name on my skin how many times necessary, to prove that I'm only yours."
     m "Would you do the same for me?"
     m "P̴̍̾̉̕̚̚ͅ ̴̲̩̯͎̏̆̽̚͝ĺ̵͇͗͊́́̌͆̕ ̷̗͓̹̣̮͎̘̜̎e̵̪̭̍̃ ̶̱̦̳͎̩̦͍̭̋̈͂̚͠ä̴̢̡͎̲͚͍ ̶̪͉̃s̵͍̞͙̥̀͊̀́̽͊͘ ̶̭̰̺͈̠͚͖̦̑̅̉̌͆̌̈́̾ͅẻ̷͔͇̄͑ ̴͕̺̟̑̊̈́́̅̎̿̊?̴̨̛͚͔̗̾͘͝"
-    m "Ehehehehe!"
-    m "I love you [player]."
-    m "Do you love me too?{nw}"
+    m 2hubfb "Ehehehehe!"
+    m 2fubfa "I love you [player]."
+    m 2fubfb "Do you love me too?{nw}"
     $ _history_list.pop()
     menu:
         m "Do you love me too?{fast}"
@@ -82,10 +82,10 @@ label yaMod_topic_tattoo:
         "Yes":
         pass
         
-    m "That's good, [player]. "
-    extend "Very good."
-    m "I knew I could count on you..."
-    m "You're the love of my life, you know that?"
+    m 5fubfu "That's good, [player]. "
+    extend 5fubfb "Very good."
+    m 5rubfb "I knew I could count on you..."
+    m 5kubfb "You're the love of my life, you know that?"
 
 return "love"
     
@@ -101,21 +101,21 @@ init 5 python:
     )
 
 label yaMod_topic_kill:
-    m "[player], remember about... "
-    extend "DDLC's incident?"
-    m "People keep calling me a murderer online, but the truth is..."
-    m "Lately I've been thinking and I would do it all over again."
-    m "For you."
-    m "I'd do anything it takes so that we could be together."
-    m "Killing some fictional characters is nothing."
+    m 1rud "[player], remember about... "
+    extend 1eud "DDLC's incident?"
+    m 1gud "People keep calling me a murderer online, but the truth is..."
+    m 1euc "Lately I've been thinking and I would do it all over again."
+    m 2fubla "For you."
+    m 2fublb "I'd do anything it takes so that we could be together."
+    m 4cublb "Killing some fictional characters is nothing."
     m "Being honest, I would even kill real people if that meant being with you forever."
-    m "If you were in danger, or anyone harmed you..."
-    m "..."
-    m "I wouldn't hold back. I would remove anyone from my sight, so they would never come across you again."
-    extend " Or us."
-    m "I wish I could bring you to my world and never let you go."
-    m "That's how much I love you."
-    m "Please never doubt my love. It's bigger than my whole existence."
+    m 4cublc "If you were in danger, or anyone harmed you..."
+    m 2rublc "..."
+    m 2wfd "I wouldn't hold back. I would remove anyone from my sight, so they would never come across you again."
+    extend 2wfc " Or us."
+    m 5rud "I wish I could bring you to my world and never let you go."
+    m 5fubla "That's how much I love you."
+    m 5hubsa "Please never doubt my love. It's bigger than my whole existence."
 return 
 
 init 5 python:
@@ -162,16 +162,16 @@ init 5 python:
     )
 
 label yaMod_topic_hug:
-    m "[player]... I miss your touch..."
-    m "Can you hold me?{nw}"
+    m 1fublb "[player]... I miss your touch..."
+    m 7fublb "Can you hold me?{nw}"
     $ _history_list.pop()
     menu:
         m "Can you hold me?{fast}"
         
         "Yes":
-        m "Ehehehe, I knew you would."
+        m 2hublb "Ehehehe, I knew you would."
         call monika_holdme_prep
-        m "Mmmm..."
+        m 6dsbfa "Mmmm..."
         call monika_holdme_start
         
 label monika_holdme_yaModreactions:
@@ -189,14 +189,14 @@ label monika_holdme_yaModreactions:
         call monika_holdme_long
         
     elif elapsed_time > datetime.timedelta(minutes=10):
-        m "Hmmm, I wish you held me more~"
-        m "But I'll allow that you let me go, just for a few moments okay?"
-        m "Ehehehe~"
+        m 6gsbfp "Hmmm, I wish you held me more~"
+        m 3ksbfa "But I'll allow that you let me go, just for a few moments okay?"
+        m 1hsbfa "Ehehehe~"
         
     else:
-        m "No."
-        m "Don't let me go."
-        m "Never let me go."
+        m 6dsbfc "No."
+        m 6dsbfd "Don't let me go."
+        m 6dsbfc "Never let me go."
 return
 
 #Would doing something like having monika refuse to let go when giving her a hug be at least yandere-adjacent
