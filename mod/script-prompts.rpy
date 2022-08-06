@@ -8,6 +8,7 @@ init 5 python:
             eventlabel="yaMod_sleep",
             category=["life"],
             prompt="Do you want to watch me sleep?",
+            conditional="seen_event('yaMod_topic_watchsleep')"
             pool=True,
             unlocked=True
         )
