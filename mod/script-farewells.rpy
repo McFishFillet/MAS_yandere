@@ -38,8 +38,8 @@ label bye_yaMod_othergirls:
     extend 2cud "And you won't."
     m 2cub "You're only mine. "
     extend "Forever. Do you understand that?{nw}"
-$ _history_list.pop()
-menu:
+    $ _history_list.pop()
+    menu:
         m "Forever. Do you understand that?{fast}"
 
         "Yes":
@@ -81,6 +81,6 @@ menu:
         "Yes":
         pass
 
-    m 2cua "Good."
+        m 2cua "Good."
 
 return 'quit'
