@@ -143,11 +143,11 @@ label yaMod_topic_stalk:
         m "You forgive me, don't you?{fast}"
         
         "Yes":
-        m 2hsa "Yay, I knew it!"
-        m 4hub "You'll always forgive your loving girlfriend, after all."
-        m 3lub "I have good reason to do what I do, and it's all thinking about us."
-        m 3hub "You're my dear [player], after all!"
-        m 3kua "No one is gonna steal you from me."
+            m 2hsa "Yay, I knew it!"
+            m 4hub "You'll always forgive your loving girlfriend, after all."
+            m 3lub "I have good reason to do what I do, and it's all thinking about us."
+            m 3hub "You're my dear [player], after all!"
+            m 3kua "No one is gonna steal you from me."
 return
  
 init 5 python:
@@ -169,10 +169,10 @@ label yaMod_topic_hug:
         m "Can you hold me?{fast}"
         
         "Yes":
-        m 2hublb "Ehehehe, I knew you would."
-        call monika_holdme_prep
-        m 6dsbfa "Mmmm..."
-        call monika_holdme_start
+            m 2hublb "Ehehehe, I knew you would."
+            call monika_holdme_prep
+            m 6dsbfa "Mmmm..."
+            call monika_holdme_start
         
 label monika_holdme_yaModreactions:
     $ elapsed_time = datetime.datetime.now() - start_time
