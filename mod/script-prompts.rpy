@@ -76,7 +76,7 @@ init 5 python:
     )
 
 label yaMod_topic_mine:
-    m "..."
+    m 1hublu "..."
     jump monika_mine_fight_start:
 
     label monika_mine_fight_start:
