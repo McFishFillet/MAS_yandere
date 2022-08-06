@@ -45,7 +45,7 @@ Click [here](https://github.com/my-otter-self/MAS_selfharm/wiki/%F0%9F%91%90-Sui
 
 ## ❓ Download instructions
 
-You can check the detailed download instructions at the [wiki](https://github.com/my-otter-self/mas_hydro/wiki/%E2%9D%93-Download-instructions).
+You can check the detailed download instructions at the [wiki](https://github.com/my-otter-self/MAS_yandere/wiki/%E2%9D%93-Download-instructions).
 
 ## 💬 Join our Discord
 
