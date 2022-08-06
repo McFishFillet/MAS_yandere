@@ -199,6 +199,7 @@ label monika_holdme_yaModreactions:
         m 6dsbfc "Never let me go."
         
         jump monika_holdme_start
+        call monika_holdme_yaModreactions
 return
 
 #Would doing something like having monika refuse to let go when giving her a hug be at least yandere-adjacent
