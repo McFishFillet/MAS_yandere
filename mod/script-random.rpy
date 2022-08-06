@@ -14,7 +14,7 @@ init 5 python:
     )
 
 label yaMod_topic_tattoo:
-    m 7lub "[mas_get_player_nickname(Capitalize=True)], have you ever thought of getting a tattoo?"
+    m 7lub "[mas_get_player_nickname(capitalize=True)], have you ever thought of getting a tattoo?"
     m 2lub "Well, I don't know if you already have one... "
     extend 2wuo "or many!"
     m 2lublb "But now I was talking about... matching tattoos... or couple tattoos."
@@ -130,7 +130,7 @@ init 5 python:
     )
 
 label yaMod_topic_stalk:
-    m 1rusdlc "[mas_get_player_nickname(Capitalize=True)], I wanted to be honest about something."
+    m 1rusdlc "[mas_get_player_nickname(capitalize=True)], I wanted to be honest about something."
     m 1dusdld "Here goes..."
     extend 1eud " I stalk what you do online."
     m 7rksdrd "Most of the times."
