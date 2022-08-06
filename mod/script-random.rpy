@@ -44,43 +44,43 @@ label yaMod_topic_tattoo:
         m "Do you love me too?{fast}"
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
         
     m 5fubfu "That's good, [player]. "
     extend 5fubfb "Very good."
