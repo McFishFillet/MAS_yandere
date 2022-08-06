@@ -43,44 +43,44 @@ label bye_yaMod_othergirls:
         m "Forever. Do you understand that?{fast}"
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
         "Yes":
-        pass
+            pass
 
-        m 2cua "Good."
+    m 2cua "Good."
 
 return 'quit'
