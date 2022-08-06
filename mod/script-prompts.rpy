@@ -10,7 +10,8 @@ init 5 python:
             prompt="Do you want to watch me sleep?",
             conditional="seen_event('yaMod_topic_watchsleep')"
             pool=True,
-            unlocked=True
+            action=EV_ACT_UNLOCK,
+            rules={"no_unlock": None}
         )
     )
 
@@ -42,7 +43,8 @@ init 5 python:
             eventlabel="yaMod_topic_promise",
             category=["yandere"],
             prompt="I got myself a promise ring to match yours!",
-            random=True
+            pool=True,
+            unlocked=True
         )
     )
 
@@ -60,3 +62,92 @@ label yaMod_topic_promise:
     m 2hubla "Thank you so much, [mas_get_player_nickname()]."
     m 5fubsa "You're the best [bf] in the whole world."
 return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="yaMod_topic_mine",
+            category=["yandere"],
+            prompt="You're mine!",
+            pool=True,
+            unlocked=True
+        )
+    )
+
+label yaMod_topic_mine:
+    m "..."
+    jump monika_mine_fight_start:
+
+    label monika_mine_fight_start:
+    #Do setup here
+    python:
+        #Set up how many times we have to say it to win
+        ym_times_till_win = renpy.random.randint(6,10)
+        #Current count
+
+        ym_count = 0
+
+        #Initial quip
+        ym_quip = renpy.substitute("No, you're mine, [player]!")
+
+        #Setup lists for the quips during the loop
+        #First half of the ym quip
+        ym_no_quips = [
+            "No, ",
+            "Not a chance, [mas_get_player_nickname()]. ",
+            "Nope, ",
+            "No,{w=0.1} no,{w=0.1} no,{w=0.1} ",
+            "No way, [mas_get_player_nickname()]. ",
+            "That's impossible...{w=0.3}"
+        ]
+
+        #Second half of the ym quip
+        #NOTE: These should always start with I because the first half can end in either a comma or a period
+        #I is the only word we can use to satisfy both of these.
+        ym_quips = [
+            "I am sure that you're mine!",
+            "I know you're mine!",
+            "I am positive you're mine!",
+            "I am telling you, you're mine!"
+        ]
+
+        #And the expressions we'll use for the line
+        ym_exprs = [
+            "1tubfb",
+            "3tubfb",
+            "1tubfu",
+            "3tubfu",
+            "1hubfb",
+            "3hubfb",
+            "1tkbfu"
+        ]
+    #FALL THROUGH
+
+label monika_ym_fight_loop:
+    $ renpy.show("monika " + renpy.random.choice(ym_exprs), at_list=[t11], zorder=MAS_MONIKA_Z)
+    m "[ym_quip]{nw}"
+    $ _history_list.pop()
+    menu:
+        m "[ym_quip]{fast}"
+        "No, you're mine!":
+            if ym_count < ym_times_till_win:
+                $ ym_quip = renpy.substitute(renpy.random.choice(ym_no_quips) + renpy.random.choice(ym_quips))
+                $ ym_count += 1
+                jump monika_ym_fight_loop
+
+            else:
+                show monika 5hubfb at t11 zorder MAS_MONIKA_Z with dissolve_monika
+                m 5hubfb "Alright, alright, you win. Ahaha~"
+                m "I'm yours~"
+
+        "Alright.":
+            if ym_count == 0:
+                m 2hkbsb "Ahaha, giving up already, [player]?~"
+                m 2rkbssdla "I guess you are all mine after all~"
+
+            else:
+                if renpy.random.randint(1,2) == 1:
+                    m 1hubfu "Ehehe, I win! You're all mine~"
+                else:
+                    m 1hubfb "Ahaha, told you so!~"
