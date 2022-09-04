@@ -33,8 +33,6 @@ I don't think the actions depicted in the topics are healthy neither do I ideali
 The commissioner allowed me to make this public, so I decided to make a public and proper release of it.
 Download at risk, TRIGGER WARNING: blood, toxic relationship, abusive behaviour.
 
-Click [here](https://github.com/my-otter-self/MAS_selfharm/wiki/%F0%9F%91%90-Suicide-Hotlines) to see all the International Suicide Hotlines at the wiki.
-
 
 ## 🌟 Features
 
