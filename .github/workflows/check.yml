@@ -1,0 +1,19 @@
+name: "Run checks on push"
+
+on:
+  push:
+    paths: [ "**.rpy" ]
+  pull_request:
+    paths: [ "**.rpy" ]
+
+jobs:
+  check-submod:
+    runs-on: "ubuntu-latest"
+
+    steps:
+
+      - name: "Checkout"
+        uses: "actions/checkout@v2"
+
+      - name: "Check"
+        uses: "friends-of-monika/submod-check-action@v2"
