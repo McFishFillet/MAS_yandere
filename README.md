@@ -45,6 +45,17 @@ Download at risk, TRIGGER WARNING: blood, toxic relationship, abusive behaviour.
 
 You can check the detailed download instructions at the [wiki](https://github.com/my-otter-self/MAS_yandere/wiki/%E2%9D%93-Download-instructions).
 
+## ✒️ Authors
+
+<p align="center">
+  <a href="https://github.com/my-otter-self/MAS_yandere/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=my-otter-self/MAS_yandere&max=6" />
+  </a>
+</p>
+
+**Note:** CC BY-NC-ND 4.0 only covers content created by authors, contributors or maintainers of this mod (repository) and does not cover
+anything that was created by third party.
+
 ## 💬 Join our Discord
 
 We're up to chat! Come join us at our Discord server [here](https://mon.icu/discord).
