@@ -61,3 +61,8 @@ anything that was created by third party.
 We're up to chat! Come join us at our Discord server [here](https://mon.icu/discord).
 
 [![Discord server invitation](https://discordapp.com/api/guilds/970747033071804426/widget.png?style=banner3)](https://mon.icu/discord)
+
+## 💚 MAS Repository
+Here you can see the official Monika After Story repository!
+
+[![card](https://github-readme-stats.vercel.app/api/pin/?username=Monika-After-Story&repo=MonikaModDev)](https://github.com/Monika-After-Story/MonikaModDev)
